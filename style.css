@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url("IMAGES/bg746.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:initial;
+	
+	/* height: 100vh; */
+}
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	
+
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.logo{
+	font-weight: bold;
+	font-size:xx-large;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	float: left;
+	color: aliceblue;
+}
+.wrapper .con {
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.con {
+	color: burlywood;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10%;
+	width: 895px;
+	text-align: center;
+}
+
+	.con h2 {
+		color: burlywood;
+		font-size: 70px;
+		font-weight: bold;
+		margin-top: 0;
+		width: 895px;
+		text-align: center;
+	}
+
+	.con .buttons {
+		margin: 35px 280px;
+	}
+.wrapper .center{
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center{
+    color: burlywood;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0;
+	width: 895px;
+	text-align: center;
+}
+.center h2{
+	color: burlywood;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 0;
+	width: 895px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+
+.wrapper .center1{
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center1{
+    color: burlywood;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 80%;
+	width: 895px;
+	text-align: right;
+}
+.center1 h1{
+	color: burlywood;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 0;
+	width: 895px;
+	text-align: right;
+}
+.center1 .p{
+    color: burlywood;
+	font-size: larger;
+	font-weight:900px;
+	margin-top: 0;
+	width: 895px;
+	text-align: right;
+    margin-left: -20%;
+}
+.center2{
+	margin-top: 15%;
+	margin-left: 15%;
+	
+}
+.center1 .buttons{
+	margin: 35px 280px;
+}
+.con1{
+	color:white;
+	font-size:x-large;
+	font-weight:bold;
+	margin-top: 0;
+	width: 895px;
+	text-align: center;
+	margin-left: 20%;
+}
+.con2 img{
+	display: flex;
+	width: 35%;
+	height: 80vh;
+	margin-left: 5%;
+	margin-top:5%;
+}
+.con3 img:hover{
+	transform: scale(0.9);
+	z-index: 1;
+}
+.con2 p{
+	background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    width: 40%;
+    margin-left: 45%;
+    color: burlywood;
+	margin-top: -36%;
+	font-size:large;
+	font-weight: 900;
+}
+.contaier2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 5%;
+    margin-right: 15%;
+	
+	
+}
+.con3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:15px;
+}
+.con3{
+    width: 100%;
+    margin-top: 10%;
+	margin-left: 5%;
+}
+.con4{
+	width: 100%;
+    margin-top: 10%;
+	margin-left: 5%;	
+}
+header {
+    /* background-color: #333; */
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10%;
+}
+	header h2 {
+		color: white;
+		text-align: center;
+		padding: 20px 0;
+		margin-top: 0;
+		font-weight: 900;
+	}
+#ass{
+	margin-top: 15%;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    /* border: 1px solid #ccc; Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical Allow the user to vertically resize the textarea (not horizontally)
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: burlywood;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    width: 40%;
+    margin-left: 2%;
+    color: burlywood;
+  } 
+
+.contact-form h2 {
+    color: burlywood;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: burlywood;
+}
+button {
+    background-color: #333;
+    color:rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+} 
+.map{
+	float: right;
+	margin-top: -30%;
+	margin-right: 10%;
+}
+.center6{
+	background-color: rgba(0,0,0,0.4); 
+	 color: white ; 
+	 padding: 20px;
+	 text-align: center; 
+	 font-size: 14px; 
+	 border-top: 2px ; 
+	 position: relative;
+	 margin-top: 5%;
+	 
+ 
+ }
+ .can h2{
+	/* border-radius: 5px; */
+    /* background-color: rgba(0,0,0,0.4); */
+    padding: 10px;
+    width: 40%;
+    margin-left: 8%;
+    color: burlywood;
+ }
+ .can h2{
+	/* border-radius: 5px; */
+    /* background-color: rgba(0,0,0,0.4); */
+    padding: 10px;
+    width: 40%;
+    margin-left: 8%;
+    color: burlywood;
+ }
+
+ #reach{
+	 margin-top: 10%;
+
+	           
+ }
+ 
+ /* .down{
+	background-color: rgba(0,0,0,0.4); 
+	 color: white ; 
+	 padding: 20px;
+	 text-align: center; 
+	 font-size: 14px; 
+	 border-top: 2px ; 
+	 position: relative;
+	 margin-top: 10%;
+	 
+ 
+ } */
+
+ /* .wrapper .center{
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+} */
+/*.center h1{
+	color: burlywood;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 500px;
+}
+.center h2{
+	color: burlywood;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 895px;
+	text-align: center;
+
+}
+.center p{
+	text-align: right;
+	margin-left: -20px;
+}
+.center2{
+	margin-top: 15%;
+	margin-left: 15%;
+	
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.logo{
+	font-weight: bold;
+	font-size:xx-large;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	float: left;
+	color: aliceblue;
+}
+#img-box{
+	float: left;
+	padding: 5px;
+	width: 290px;
+	height: 450px;
+}
+.paragraphyabout{ 
+	/* float: right;
+	position: relative; */
+	/* display: flex;
+	flex-direction: column;
+	margin: 4% auto ;
+
+}
+.image {
+    float: left;
+    margin-right: 20px; Adjust the margin as needed */ 
+/* }
+
+#tour h2 h1{
+	margin-bottom: 5%;
+}
+#tour2{
+	margin-top: -800px;
+}
+
+.para {
+    /* Remove the margin and background color */
+    /* text-align: center; /* Adjust the text alignment as needed */
+    /* width: 80%;
+    height: 10vh;
+	margin: 10% auto;
+	font-size: 17px;  */
+	/* justify-content: center; */
+/* }
+.paratime{
+	margin: 1% auto;
+	width: 80%;
+	font-size: 17px;
+	color:blanchedalmond
+}
+.paratime h2{
+	color:black
+	
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 10px auto;
+	padding: 20px;
+} */
+/* .box {
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	height: 50vh;
+	width: 100%;
+}
+
+.box img {
+	width: 100%;
+	height:50vh;
+}
+
+h2 {
+	text-align: center;
+}
+  client_section {
+	padding-bottom: 150px;
+  }
+	
+  
+	.heading_container {
+	  align-items: center;
+	  margin-bottom: 45px;
+	}
+  
+	.box {
+	  padding: 20px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  margin: 20px;
+	} */
+  
+	  /* .img-box img{
+		width: 60px;
+		  width: 100%;
+		
+	  }
+
+  
+	  .detail-box {
+		margin-top: 35px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+  
+		h5 {
+		  text-transform: uppercase;
+		  font-weight: bold;
+		  font-size: 18px;
+  
+		  span {
+			text-transform: none;
+			font-size: 16px;
+			font-weight: normal;
+			color:primary1;
+		  }
+		}
+  
+		img {
+		  width: 15px;
+		  margin: 35px 0;
+		}
+  
+	  } */ 
+
+
+/* text color */
+/* .work_container_layout_padding2 h1{
+	-webkit-text-fill-color: #fff;
+} */
+
+/* this is for image columns */
+/* .work_container_layout_padding2{
+	display: flex; */
+	/* flex-direction: column; */
+/* }
+.matricme{
+	margin-bottom: 40%;
+}
+.school h1{
+	-webkit-text-fill-color: #fff;
+	margin: 0 auto;
+}
+
+.school1{
+	-webkit-text-fill-color: #fff;
+	margin-left: 35%;
+	width: 45%;
+	position: relative;
+	top: -950px;
+	font-size:larger;
+}
+.school2{
+	width: 45%;
+	margin-left: 46%;
+	margin-top: -300px;
+	position: relative;
+	bottom: 500px;
+	font-size: large;
+}
+.matricme2{
+	margin-bottom:10%;
+}body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+} */
+
+/* .container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Creates a 3x3 grid */
+	/* grid-gap: 20px; Gap between grid items */ */
+/* }
+
+.gallery-item {
+    
+	width: 300px;
+	height: 300px;
+	position: relative;
+} */
